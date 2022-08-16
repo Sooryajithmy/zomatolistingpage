@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <title>Zomato Listing Page</title>
+        <link rel="stylesheet" href="listing.css"/>
+        <link rel="icon" href="zomato.jpg"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    </head>
+    <body>
+        <header>
+            <div id="brand">
+                ZOMATO
+            </div>
+            <div id="social">
+                <a href="https://www.facebook.com/zomato/" target="_blank">
+                    <img src="https://i.ibb.co/dtzG625/facebook.png" alt="fb" class="socialImg"/>
+                </a>
+                <a href="https://www.instagram.com/zomato/?hl=en" target="_blank">
+                    <img src="https://i.ibb.co/19H5LvT/insta.png" alt="fb" class="socialImg"/>
+                </a>
+                <a href="https://www.youtube.com/channel/UCD7kbZQyYIR6RgJQYW9w0Tg" target="_blank">
+                    <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="fb" class="socialImg"/>
+                </a>
+            </div>
+        </header>
+        <form class="search" action="action_page.php">
+            <input type="text" placeholder="Enter name of a Restaurant" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        
+        <div id="container">
+            <div class="filter" >
+                <h2>Filters</h2>
+                <hr>                
+                <h3>Cuisine</h3>
+                <ul>
+                    <li><input type="checkbox"/>Chinese</li>
+                    <li><input type="checkbox"/>Japanese</li>
+                    <li><input type="checkbox"/>Italian</li>
+                    <li><input type="checkbox"/>South Indian</li>
+                    <li><input type="checkbox"/>Punjabi</li>
+                    <li><input type="checkbox"/>Gujarathi</li>
+                    <li><input type="checkbox"/>Thai</li>
+                    <li><input type="checkbox"/>Arabian</li>
+                </ul>
+                <hr>
+                <h3>City</h3>
+                <ul>
+                    <li><input type="checkbox"/>Non-Vegetarian</li>
+                    <li><input type="checkbox"/>Vegetarian</li>                    
+                </ul>
+                <hr>
+                <h3>Cost</h3>                                        
+                <ul>
+                    <li><input type="checkbox"/>300-500</li>
+                    <li><input type="checkbox"/>500-1000</li>
+                    <li><input type="checkbox"/>1000-1500</li>
+                    <li><input type="checkbox"/>1500-2000</li>
+                </ul>  
+                <hr>
+                <h3>Sort</h3> 
+                <ul>
+                    <li><input type="radio"/>Sort low to high</li>
+                    <li><input type="radio"/>Sort high to low</li>                    
+                </ul>
+                <hr>                  
+            </div>
+            <div class="content">
+                <div class="itemscontent">
+                    <img src="westernfood.jpg" alt="thequberestaurant" class="imgcontent"/>
+                    <h3>THE QUBE</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <h4>Staring from Rs.550</h4>
+                    <button class="btn">Italian</button>
+                    <button class="btn">Arabian</button>
+                    <button class="btn">Thai</button>
+                    
+                </div> 
+                            
+                <div class="itemscontent">
+                    <img src="keralafood.jpg" alt="keralakitchen" class="imgcontent"/>
+                    <h3>KERALA HOUSE</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <h4>Staring from Rs.350</h4>
+                    <button class="btn">Kerala-Sadhya</button>
+                    <button class="btn">Non-Vegetarian</button>
+                </div> 
+                                
+                <div class="itemscontent">
+                    <img src="chinese.jpg" alt="chinabistro" class="imgcontent"/>
+                    <h3>CHINA BISTRO</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <h4>Staring from Rs.300</h4>
+                    <button class="btn">Grills & fries</button>
+                    <button class="btn">Fujian</button>
+                    <button class="btn">Vegetarian</button>                    
+                </div> 
+                                
+                <div class="itemscontent">
+                    <img src="hyderabadfood.jpg" alt="bawarchi" class="imgcontent"/>
+                    <h3>FOOD HUT</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <h4>Staring from Rs.400</h4>
+                    <button class="btn">Special-Biriyani</button>
+                    <button class="btn">Vegetarian</button>                      
+                </div> 
+                                
+                <div class="itemscontent">
+                    <img src="punjabifood.jpg" alt="crystalrestaurant" class="imgcontent"/>
+                    <h3>CRYSTAL</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <h4>Staring from Rs.940</h4>
+                    <button class="btn">Sweet snacks</button>
+                    <button class="btn">Punjabi thali</button>   
+                </div> 
+                                
+                <div class="itemscontent">
+                    <img src="gujaratifood.jpg" alt="tinello" class="imgcontent"/>
+                    <h3>TINELLO</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <h4>Staring from Rs.240</h4>
+                    <button class="btn">Gujarati thali</button>
+                    <button class="btn">Sweet dessert</button>
+                    <button class="btn">Meal</button>                        
+                </div> 
+
+                <div class="itemscontent">
+                    <img src="japanesefood.jpg" alt="sushihaus" class="imgcontent"/>
+                    <h3>SUSHI HAUS</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <h4>Staring from Rs.1000</h4>
+                    <button class="btn">Sushi</button>
+                    <button class="btn">Vegetarian</button>
+                    <button class="btn">Sea-food</button>                      
+                </div> 
+                                
+                <div class="itemscontent">
+                    <img src="thaifood.jpg" alt="thaisoul" class="imgcontent"/>
+                    <h3>THAI SOUL</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <h4>Staring from Rs.940</h4>
+                    <button class="btn">Sea-food</button>
+                    <button class="btn">Non-Vegetarian</button>   
+                </div> 
+                                
+                <div class="itemscontent">
+                    <img src="asianfood.jpg" alt="baonwok" class="imgcontent"/>
+                    <h3>BAO N WOK</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <h4>Staring from Rs.640</h4>   
+                    <button class="btn">Vegetarian</button>
+                    <button class="btn">Special-lunch</button>
+                </div> 
+            </div>                
+        </div>
+        
+    </body>
+    <footer>
+        <hr>
+        <h3>&copy; Sooryajith</h3>
+        
+        <div class="fotDiv">
+            <h3>About us</h3>
+        </div>
+        <div class="fotDiv">
+            <h3>Our Branches</h3>
+        </div>
+        <div class="fotDiv noBorder">
+            <h3>Contact us</h3>
+        </div>
+    </footer> 
+</html>
